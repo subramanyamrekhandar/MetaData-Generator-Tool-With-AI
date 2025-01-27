@@ -1,0 +1,10 @@
+# installing conda naviagtor
+# create virtual Environment
+--> conda create -n yolo_env python=3.8
+--> conda activate yolo_env
+
+# installing necessary packages
+--> pip install -r requirements
+
+# run main 
+ --> streamlit run main.py
